@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  .item {
+    padding: 20px;
+    a {
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      &:hover {
+        color: rgb(62, 47, 47, 0.7);
+      }
+    }
+  }
+}

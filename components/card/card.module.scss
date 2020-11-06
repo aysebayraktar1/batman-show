@@ -1,0 +1,39 @@
+.description {
+  margin-left: 20px;
+  width: 40%;
+  float: left;
+  h3 {
+    margin: 0;
+    float: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  p {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+    line-height: 23px;
+    margin-top: 10px;
+  }
+  a {
+    float: left;
+    background: #2b9bd6;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      background: #0060ac;
+    }
+  }
+  .genre {
+    color: #2b9bd6;
+  }
+}
